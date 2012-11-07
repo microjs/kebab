@@ -17,10 +17,10 @@ function kebab() {
   };
 }
 
-if (typeof define === 'function' && define.amd) {
+if (typeof module === 'object' && typeof module.exports === 'object') {
+  module.exports = kebab;
+} else if (typeof define === 'function' && define.amd) {
   define(function () { return kebab; });
 } else if (typeof window === 'object') {
   window.kebab = kebab;
-} else if (typeof module === 'object' && typeof module.exports === 'object') {
-  module.exports = kebab;
 }
