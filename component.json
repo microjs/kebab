@@ -1,0 +1,21 @@
+{
+  "name": "kebab",
+  "repo": "microjs/kebab",
+  "description": "Half queue half pubsub. Super small (< 30 loc) and simple queue that supports subscribers.",
+  "version": "0.0.2",
+  "keywords": [
+    "pubsub",
+    "queue",
+    "micro",
+    "small",
+    "simple"
+  ],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "kebab.js"
+  ],
+  "main": "kebab.js",
+  "twitter": "@ForbesLindesay",
+  "license": "BSD"
+}
